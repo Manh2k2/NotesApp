@@ -1,0 +1,45 @@
+
+
+android:letterSpacing=".2"
+tạo khoảng cách cho chữ
+
+Với CoordinatorLayout, bạn có thể thiết kế các giao diện người dùng có chứa các thành phần giao diện động,
+ví dụ như các thanh cuộn cuộn, các nút bấm phản hồi, các bảng điều khiển giao diện người dùng được di chuyển
+và sắp xếp dễ dàng. Nó cung cấp các tính năng như quyền điều chỉnh vị trí và kích thước của các thành phần con,
+tự động ẩn và hiển thị các thành phần khi cuộn, và các quy tắc phối hợp định vị để giữ cho các thành phần con
+cùng hoạt động một cách hợp lý.
+
+android:imeOptions="actionDone"
+tự động ẩn hiện bàn phím
+
+android:importantForAutofill="no"
+không tự động điền thông tin khi Autofill
+
+android:ellipsize="end"
+được sử dụng trong các layout XML của Android để xác định hành vi của văn bản khi nó
+vượt quá chiều rộng hiển thị của một TextView hoặc một thành phần khác chứa văn bản. Khi sử dụng giá trị này,
+văn bản sẽ được cắt ngắn và kết thúc bằng dấu ba chấm ("...") để chỉ ra rằng nó đã bị cắt đứt và còn phần còn
+lại bị ẩn đi.
+
+app:layout_behavior="@string/bottom_sheet_behavior"
+được sử dụng để thiết lập hành vi cho một thành phần giao diện trong Android, ví dụ như một layout, một view, hoặc một fragment.
+Trong trường hợp của bạn, giá trị @string/bottom_sheet_behavior được sử dụng để chỉ định hành vi dưới dạng bottom sheet behavior
+(hành vi bottom sheet).
+
+
+app:behavior_peekHeight="40dp"
+Đặt chiều cao cho bottom sheet
+
+Lớp MyNoteEntity được định nghĩa trong đoạn mã Java trên là một lớp thực thể (entity class) và triển khai giao diện Serializable.
+Giao diện Serializable cho phép đối tượng của lớp này có thể được chuyển đổi thành một dạng dữ liệu có thể được truyền qua
+mạng hoặc lưu trữ vào tệp tin.
+
+android:visibility="gone"
+Ẩn khi người dùng không sử dụng.
+
+android:visibility="gone"
+Hiển thị hình ảnh theo tỷ lệ gốc. Điều chỉnh kích thước của ImageView để hình ảnh hiển thị đúng kích thước.
+
+android:contentDescription="@string/app_name"
+Mô tả hình ảnh cho người dùng nếu hình ảnh không thể hiển thị.
+

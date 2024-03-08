@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet"
+    android:orientation="vertical"
+    android:id="@+id/layout_dialog_button_sheet_reminder"
+    app:behavior_peekHeight="50dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:id="@+id/txt_bottom_click_reminder"
+        android:text="Click me"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/view_color_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_reminder" />
+
+            <ImageView
+                android:id="@+id/img_color_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_done"
+                app:tint="@color/black" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/view_color_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_reminder_2" />
+
+            <ImageView
+                android:id="@+id/img_color_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                app:tint="@color/black" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/view_color_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_reminder_3" />
+
+            <ImageView
+                android:id="@+id/img_color_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                app:tint="@color/black" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/view_color_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_reminder_4" />
+
+            <ImageView
+                android:id="@+id/img_color_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                app:tint="@color/black" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/averia_gruesa_libre"
+            android:includeFontPadding="false"
+            android:text="Pick your sticky\nNote color"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

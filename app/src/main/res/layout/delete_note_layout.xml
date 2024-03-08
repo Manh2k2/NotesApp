@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_delete_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    app:layout_anchorGravity="center"
+    android:background="@drawable/bg_dialog">
+
+    <ImageView
+        android:id="@+id/img_delete_note"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_delete"
+        app:tint="@color/red" />
+
+    <TextView
+        android:id="@+id/txt_delete_note_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:includeFontPadding="false"
+        android:paddingRight="8dp"
+        android:text="Are you sure delete this note?"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/txt_delete_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_delete_note_message"
+        android:layout_alignParentRight="true"
+        android:layout_margin="7dp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:includeFontPadding="false"
+        android:padding="6dp"
+        android:text="Delete note"
+        android:textAllCaps="true"
+        android:textColor="@color/color_dark1"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/txt_cancel_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_delete_note_message"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+
+        android:layout_toLeftOf="@id/txt_delete_note"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:includeFontPadding="false"
+        android:padding="6dp"
+        android:text="Cancel"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+</RelativeLayout>
